@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my_portfolio</title>
+    <link rel = "stylesheet" 
+    href = https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css>
+    <link rel = "stylesheet"
+    href = https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css>
+       
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header>
+        <div class = "logo">
+            <img src = "./img/logo.png" alt = "Logo">
+        </div>
+    <button class = "nav-toggle" aria-label="toggle navigation">
+        <span class = "hamburger"></span>
+    </button>
+    <nav class = "nav">
+        <ul class = "nav__list">
+            <li class = "nav__item"><a href = "#home" class = "nav__link">Ana Sayfa</a></li>
+            <li class = "nav__item"><a href = "#services" class = "nav__link">İşlerim</a></li>
+            <li class = "nav__item"><a href = "#about" class = "nav__link">Hakkımda</a></li>
+            <li class = "nav__item"><a href = "#work" class = "nav__link">Projeler</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!--Introduction Section-->
+    <section class = "intro" id = "home">
+        <h2 class = "section__title section__title--intro">
+            Merhaba, Ben <strong>İsminiz</strong>
+        </h2>
+            <p class = "section__subtitle section__subtitle--intro">Mesleğiniz</p>
+            <img src = "img/yldrm.png" alt = "Fotograf_1" class="intro__img">
+    </section>
+
+    <!-- İşlerim Section-->
+    <section class = "my-services" id = "services">
+        <h2 class = "section__title section__title--services">Neler Yapıyorum</h2>
+        <div class = "services">
+            <div class = "service">
+                <h3>Hizmet-1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, ad?</p>
+            </div>
+            <div class = "service">
+                <h3>Hizmet-2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, harum!</p>
+            </div>
+            <div class = "service">
+                <h3>Hizmet-3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, necessitatibus.</p>
+            </div> 
+        </div>
+        
+        <a href="#work" class = "btn">Projelerim</a>
+    </section>
+
+    <!-- Hakkımda Section-->
+    <section class = "about-me" id = "about">
+        <h2 class = "section__title section__title--about">Ben Kimim</h2>
+        <p class = "section__subtitle section__subtitle--about">Mesleğiniz</p>
+    
+    <div class = about-me__body"">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo mollitia distinctio qui ut voluptatibus sit velit asperiores quos fugiat repudiandae nostrum odio quas error corporis optio vitae ullam veniam accusantium, a tempora necessitatibus exercitationem iste amet autem. Est veniam non nobis! Architecto porro reiciendis animi excepturi ratione nam explicabo quisquam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum mollitia unde suscipit maxime eligendi repellat tempora quibusdam eos. Minus at molestias enim in explicabo totam fuga quos excepturi necessitatibus! Quas repudiandae accusantium consectetur incidunt, mollitia ad voluptatem quaerat perspiciatis, corporis deserunt aperiam ullam nulla ipsam dolorum praesentium architecto nobis.</p>
+    </div>
+    
+    <img src="./img/sample.jpg" alt="Fotograf_2" class="about-me__img">
+    </section>
+
+    <!-- Projeler Section-->
+    <section class = "my-work" id = "work">
+        <h2 class = "section__title">Projelerim</h2>
+        <p class = "section title section__subtitle--work">Proje Seçimi</p>
+
+        <div class = "portfolio">
+            <!--Portfolio item 1-->
+            <a href="portfolio-item.html" class = "portfolio__item">
+                <img src="./img/portfolio-01.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 2-->
+            <a href="#" class = "portfolio__item">
+                <img src="./img/portfolio-02.png" alt="" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 3-->
+            <a href="#" class = "portfolio__item">
+                <img src="./img/portfolio-03.png" alt="" class="portfolio__img">
+            </a>
+
+              <!--Portfolio item 3-->
+              <a href="#" class = "portfolio__item">
+                <img src="./img/portfolio-04.png" alt="" class="portfolio__img">
+            </a>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="#" class = "footer__link">mail_adresiniz</a>
+        <ul class = "social-list">
+            <li class = "social-list__item">
+                <a target="_blank "class="social-list__link" href = "#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class = "social-list__item">
+                <a target="_blank" class="social-list__link" href = "#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class = "social-list__item">
+                <a target="_blank "class="social-list__link" href = "#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!--JS kodlarının eklenmesi-->
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>
