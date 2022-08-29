@@ -103,12 +103,8 @@ h3 { font-size: var(--fs-h3);}
     margin-bottom: .25em;
 }
 
-.section__subtitle--intro{
+.section__title--intro{
     font-weight: var(--fw-reg);
-}
-
-.section__subtitle--intro strong{
-    display: block;
 }
 
 .section__subtitle{
@@ -250,7 +246,7 @@ header{
         display: grid;
         width: min-content;
         margin: 0 auto;
-        grid-column-gap: 1em;
+        grid-column-gap: 2em;
         grid-template-areas: 
             "img title"
             "img subtitle";
@@ -275,7 +271,7 @@ header{
         text-align: right;
         position: relative;
         left: -2em;
-        width: calc(100% + 1.5em);
+        width: calc(100% + 2.5em);
     }
 }
 
@@ -310,7 +306,7 @@ header{
 }
 
 .service{
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
