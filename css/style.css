@@ -101,6 +101,7 @@ h3 { font-size: var(--fs-h3);}
 
 .section__title{
     margin-bottom: .25em;
+    font-weight: var(--fw-bold);
 }
 
 .section__title--intro{
@@ -347,6 +348,7 @@ header{
     
     .section__title--about{
         grid-area: title;
+        font-weight: var(--fw-bold);
     }
 
     .section__subtitle--about{
